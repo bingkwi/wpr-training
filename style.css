@@ -1,0 +1,128 @@
+/* TODO(you): Write the CSS to finish the assignment! */
+
+body {
+    padding: auto;
+    font-family:'Proxima Nova', 'Helvetica', 'Arial',sans-serif;
+    font-size: 18px;
+    color: #222222;
+    width: 700px;
+    margin: auto;
+    padding: auto;
+}
+
+#container-flexbox {
+    height: 80px;
+    border: #ccc 1px solid;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subject {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ee3322;
+}
+
+.letter {
+    background-color: #ffee00;
+    border-radius: 100%;
+    font-weight: bold;
+    vertical-align: auto;
+    transform: rotate(-30deg);
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    align-items: center;  
+}
+
+#flex-item {
+   display: flex;
+   flex-direction: row;
+}
+
+#quiz-name {   
+    font-size: 60px;
+    font-family: 'Pangolin', 'Trebuchet MS', cursive;
+    color: black;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    width: 700px;
+    height: 425px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quiz-name p{
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width:75%; 
+}
+
+#author p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+#introduction p, h4 {
+    margin-bottom: 18px;
+}
+
+#start-container {
+    display: flex;
+    flex-direction: column;    
+    background-color: #f1f1f1;
+    align-items: center;
+}
+
+button {
+    margin: 18px 0;
+    color: white;
+    padding: 20px;
+    border: none;
+}
+
+.start-item {
+    padding-top: 30px;
+}
+
+#blue-button {
+    background-color: #2196F3;
+}
+
+#blue-button:hover {
+    background-color: #0d8bf2;
+}
+
+#radio-button {
+    margin: 0 15px;
+}
+
+#choice-container {
+    background-color: #f1f1f1;
+    margin-bottom: 1px;
+}
+
+#choice-container:hover {
+    background-color: #ddd;
+}
+
+#choice-container input[type="radio"]:checked + label {
+    background-color: #ddd;
+}
+
+.choice-list {
+    padding: 15px 0 
+}
+
+.question {
+    margin: 0;
+}
+
+#choice-container {
+    padding: 15px 0;
+}
